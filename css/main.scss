@@ -1,0 +1,35 @@
+---
+---
+
+@import "bootstrap/bootstrap";
+
+.container-fluid {
+  background: #000;
+  height: 100vh;
+  margin-left: 0;
+  padding: 0;
+}
+
+.imgHero {
+  height: 100vh;
+  margin-left: 0;
+  display: inline-block;
+}
+
+.inline {
+  display: inline-block;
+  padding: 0;
+}
+
+.copyright {
+  background: $primary-dark1;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.copyright p {
+  margin: 0;
+}
